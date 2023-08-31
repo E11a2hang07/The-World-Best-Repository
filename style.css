@@ -10,6 +10,7 @@ h1{
 h4{
   color: aqua;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  
 }
 
 p{
@@ -43,7 +44,7 @@ p{
 
 /* Style the footer */
 .footer {
-  background-color: #e5a9e8;
+  background-color: #B7E3E8;
   padding: 10px;
   text-align: center;
 }
@@ -51,7 +52,7 @@ p{
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
   .row {
-    -webkit-flex-direction: column;
+    -webkit-flex-direction:column;
     flex-direction: column;
   }
 }
@@ -73,5 +74,10 @@ tr:nth-child(even) {
 }
 
 .content1 {
-  background-color: #ac1c1c;
+  background-color: #FFD7DA;
+}
+
+.topnav{
+  background-color:#B7E3E8;
+  height:auto;
 }
