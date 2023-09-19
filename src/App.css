@@ -1,0 +1,142 @@
+html {
+  font-size: 16px;
+  
+}
+
+body {
+  color: #000;
+  line-height: 1.9;
+}
+
+a:hover,
+a:focus,
+a:active,
+a:visited {
+  color: inherit;
+}
+
+.home > section {
+  width: 100%;
+}
+
+.home > .section1 > :first-child {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.home > :first-child {
+  background-color: #fad7dd;
+}
+
+.image-box {
+  position: relative;
+}
+.image-box a {
+  display: inline-block;
+  border-radius: 1em;
+  line-height: 2.5em;
+  height: 2.5em;
+  color: #000;
+  background-color: #E2F6EB;
+  min-width: 8em;
+  text-decoration: none;
+}
+
+.image-box>div {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.image-box img {
+  width: 100%;
+}
+
+.image-list {
+  margin: 0 auto;
+}
+
+
+.section-2 {
+  display: flex;
+}
+
+.section-2 .intro {
+  flex: 7 7;
+  padding: 8px 16px;
+  background-color: #f8f0db;
+  /* min-height: 300px; */
+}
+
+.section-2 .contact {
+  padding: 8px 16px;
+  flex: 3 3;
+  background-color: #f4d6ba;
+}
+.section-2 header {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.main p {
+  margin: 0;
+  line-height: 1.8;
+}
+
+
+.detail header {
+  font-size: 2.5rem;
+  text-align: center;
+  background-color: #fad7dd;
+}
+
+.detail .sec1 {
+  background-color: #f8f0db;
+}
+.detail .sec1 h3{
+  margin-left: 600px;
+}
+
+.detail .sec1::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.detail .pic {
+  width: 600px;
+  max-width: 100%;
+  float: left;
+  margin-right: 1em;
+}
+
+.detail .sec2 {
+  background-color: #f4d6ba;
+}
+
+.detail .sec3 {
+  background-color: #bbe3ec;
+}
+
+.detail h3 {
+  margin: 0;
+  line-height: 2em;
+  font-size: 1.8em;
+  text-align: left;
+}
+
+.detail section {
+  padding: 1em;
+}
+
+@media only screen and (max-width: 1000px) {
+  .detail .sec1 h3{
+    margin-left: 0;
+  }
+  .detail .pic {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+}
